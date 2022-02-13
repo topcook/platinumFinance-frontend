@@ -4,7 +4,7 @@ import { Configuration } from './plat-finance/config';
 import { BankInfo } from './plat-finance';
 
 const configurations: { [env: string]: Configuration } = {
-  /*development / production: {
+  development: {
     chainId: ChainId.FTMTESTNET,
     networkName: 'Fantom Opera Testnet',
     ftmscanUrl: 'https://testnet.ftmscan.com',
@@ -24,7 +24,7 @@ const configurations: { [env: string]: Configuration } = {
     bondLaunchesAt: new Date('2020-12-03T15:00:00Z'),
     masonryLaunchesAt: new Date('2020-12-11T00:00:00Z'),
     refreshInterval: 10000,
-  },*/
+  },
 
   production: {
     chainId: ChainId.MAINNET,
